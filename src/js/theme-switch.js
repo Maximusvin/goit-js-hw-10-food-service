@@ -5,8 +5,6 @@ const Theme = {
   DARK: 'dark-theme',
 };
 
-let currentTheme = Theme.LIGHT;
-
 const changeTheme = currentTheme => document.body.classList.add(currentTheme);
 const currentTemeLocalStorage = () => localStorage.getItem('currentTheme');
 const changeLocalStorage = currentTheme =>
